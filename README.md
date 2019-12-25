@@ -16,6 +16,7 @@ Chrome 打开任意一个 Bilibili 的视频播放界面，按下 F12 打开开�
 
 #### 运行效果
 ![bilibili_auto_coin_2](https://iobaka.com/cloud/image/bilibili_coin_2.png)
+![bilibili_auto_coin_3](https://iobaka.com/cloud/image/bilibili_coin_3.png)
 
 #### 添加到计划任务
 添加到 linux 计划任务 Crontab 中，每日 0 点 10 分自动执行。执行结果写入 run.log 文件中。
