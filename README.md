@@ -1,16 +1,16 @@
 # bilibiliAutoCoinExp
-Bilibili 每日自动投 5 个硬币，获取 50 经验。
-仅有 1 个 PHP 文件，只给 Bilibili 的番剧投币，防止被认为是黑产账号。
+Bilibili 每日自动投 5 个硬币，获取 50 经验。  
+仅有 1 个 PHP 文件，只给 Bilibili 的番剧投币，防止被认为是黑产账号。  
 支持 [Server酱](http://sc.ftqq.com/3.version) 推送运行结果到微信。
 
 #### 使用说明
-修改 run.php 的 $cookie , $crsf , $server_chan_key 为自己的。
-Bilibili 的 $cookie , $crsf 可以通过浏览器开发者工具获得，
+修改 run.php 的 $cookie , $crsf , $server_chan_key 为自己的。  
+Bilibili 的 $cookie , $crsf 可以通过浏览器开发者工具获得，  
 $server_chan_key 为 Server 酱的 key ，可以不填。
 
 #### 获取cookie和跨站crsf
-Chrome 打开任意一个 Bilibili 的视频播放界面，按下 F12 打开开发者工具，
-切换到 Network 选项卡，然后给视频投 1 个硬币。
+Chrome 打开任意一个 Bilibili 的视频播放界面，按下 F12 打开开发者工具，  
+切换到 Network 选项卡，然后给视频投 1 个硬币。  
 投币后，查看 Network 的 add ，复制即可。
 ![bilibili_auto_coin_1](https://iobaka.com/cloud/image/bilibili_coin.png)
 
