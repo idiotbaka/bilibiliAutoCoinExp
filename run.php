@@ -41,7 +41,6 @@ if(!isset($today_exp['data'])) {
     exit;
 }
 // 如果今日经验达到上限（50）
-$today_exp['data'] = 30;
 if($today_exp['data'] >= 50) {
     console_msg('今日投币奖励已经达到最大上限：'.$today_exp['data'], 2);
     if($server_chan_key) {
