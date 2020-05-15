@@ -161,7 +161,7 @@ function php_curl($url, $header = [], $is_post = 0, $postdata = []) {
     // 如果是POST方法
     if ($is_post) {
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($postdata));
     }
     // 如果定义了请求头
     if($header) {
