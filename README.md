@@ -24,3 +24,10 @@ Chrome 打开任意一个 Bilibili 的视频播放界面，按下 F12 打开开�
 10 0 * * * php /opt/bilibili_auto_coin/run.php>/opt/bilibili_auto_coin/run.log
 ```
 路径地址记得改成你自己的。
+
+#### 其他定时运行方法
+如果自己没有可以运行PHP的服务器，又想要每日自动运行代码，可以使用阿里云的函数计算。
+地址： [函数计算](https://www.aliyun.com/product/fc?spm=a2c4g.11174283.1kquk9v2l.6.3da85212UX8uBm)
+每月前100万次调用是免费的，相当于可以免费运行。
+途径是：阿里云函数计算控制台 - 服务/函数 - 新建函数 - 事件函数，运行环境选择PHP7.2，
+创建后在触发器里设置每日运行一次即可。
